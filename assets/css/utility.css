@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --color-pri:#fed200;
+    --color-grey:#ededed;
+    --color-dark:#000;
+    --color-white:#fff;
+}
+
+body{
+    background-color: var(--color-grey);
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a:is(:link,:visited){
+    text-decoration: none;
+}
