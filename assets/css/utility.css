@@ -22,4 +22,5 @@ ul,ol{
 
 a:is(:link,:visited){
     text-decoration: none;
+    color: var(--color-white);
 }
