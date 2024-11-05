@@ -24,3 +24,11 @@ a:is(:link,:visited){
     text-decoration: none;
     color: var(--color-white);
 }
+
+.m-10{
+    margin-bottom: 10px;
+}
+
+.p-10{
+    padding-left: 10px;
+}

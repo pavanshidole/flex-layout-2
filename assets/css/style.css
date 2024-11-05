@@ -157,6 +157,85 @@
     margin-bottom: 20px;
 }
 
+/* download section here now */
+
+.download-card{
+    background-color:var(--color-dark);
+    color:var(--color-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.download-img a{
+    width: 100%;
+    height: 100vh;
+}
+
+.download-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.download-img img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.download-icon{
+    text-align: center;
+    padding: 10px;
+}
+
+.download-cast{
+    background-color: var(--color-white);
+    color: var(--color-dark);
+    padding: 16px;
+}
+
+.download-cast p{
+    margin-right: 10px;
+}
+
+.download-cast ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.download-cast li{
+    margin-right: 10px;
+}
+
+.download-cast a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.download-cast img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.download-voting{
+    background-color: var(--color-pri);
+    padding: 16px;
+}
+
+.download-voting ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.download-voting li{
+    color: var(--color-dark);
+    font-size: 20px;
+    font-weight: 700;
+}
+
 @media all and (min-width:1180px){
     .navbar{
         flex-direction: row;
@@ -213,5 +292,22 @@
         order: 1;
     }
     
+    .download-info{
+        flex-direction: row;
+        
+    }
+
+    .download-icon ,.download-voting{
+        flex:1;
+    }
+
+    .download-icon{
+        align-self: center;
+    }
+    
+    .download-cast{
+        flex: 2;
+    }
+
     
 }
